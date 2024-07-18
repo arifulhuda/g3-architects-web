@@ -13,6 +13,11 @@
 .display-flex{
     display: flex;
 }
+.feature-title{
+    font-size: 2.8rem;
+    margin-bottom: 24px;
+    color: black;
+}
 .section-title{
     font-size: 2.8rem;
     margin-bottom: 24px;
@@ -117,6 +122,32 @@ font-weight: 700;
 .features{
 font-weight: 700;
 color: #FF900E;
+gap: 100px;
+}
+#f-t-title{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* feature section related style  */
+#feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.feature-card{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    border-radius: 8px;
+} 
+.feature-card, .feature-section-title2{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: black;
+
+}
+.p-feature{
+    line-height: 26px;
+    font-size: 1rem;
 }
 /* some fact related style  */
 .fact-card{
@@ -158,9 +189,25 @@ color: #FF900E;
     grid-template-columns: repeat(5, 1fr);
     justify-items: center;
     justify-content: center;
+    margin-bottom: 130px;
 }
 .sponsor-companies img{
     filter: grayscale(100%);
+}
+/* footer */
+.footer-cp{
+    background-color: #FFF4E7;
+   margin-right: 200px;
+   margin-left: 200px;
+   margin-bottom: 200px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+.p-footer{
+    padding: 20px 30px;
+    
 }
 /* responsive media query */
 @media screen and (max-width: 576px) {
